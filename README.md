@@ -10,7 +10,7 @@ I created this Worker for a project that I'm working on and I thought that it ca
 
 ### 🌐 Try it online
 
-You can try the worker online by going to [this](https://twitter-profile-api.ardasoyturk.workers.dev/?username=fatih) website.
+You can try the worker online by going to [this](https://twitter-profile-api.ardasoyturk.workers.dev/?username=soyturkarda_) website.
 Example usage of the API: `https://twitter-profile-api.ardasoyturk.workers.dev/?username=soyturkarda_`
 
 ### 💻 Init worker locally
