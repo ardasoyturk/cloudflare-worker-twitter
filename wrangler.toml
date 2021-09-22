@@ -1,0 +1,12 @@
+name = "twitter-profile-api"
+type = "javascript"
+zone_id = ""
+account_id = "2f1c5f54302716407dc1135360991d99"
+route = ""
+workers_dev = true
+compatibility_date = "2021-09-21"
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"

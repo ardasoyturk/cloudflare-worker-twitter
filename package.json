@@ -1,0 +1,52 @@
+{
+  "name": "cloudflare-worker-twitter",
+  "version": "1.0.0",
+  "description": "This is a Cloudflare Worker for fetching data from Twitter User API.",
+  "main": "dist/worker.js",
+  "scripts": {
+    "build": "webpack",
+    "format": "prettier --write  '*.{json,js}' 'src/**/*.{js,ts}' 'test/**/*.{js,ts}'",
+    "lint": "eslint --max-warnings=0 src && prettier --check '*.{json,js}' 'src/**/*.{js,ts}' 'test/**/*.{js,ts}'"
+  },
+  "author": "ardasoyturk",
+  "license": "MIT",
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "typescript",
+      "prettier"
+    ]
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^2.2.2",
+    "@types/service-worker-mock": "^2.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-typescript": "^3.0.0",
+    "jest": "^27.0.1",
+    "prettier": "^2.3.0",
+    "service-worker-mock": "^2.0.5",
+    "ts-loader": "^9.2.2",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardasoyturk/cloudflare-worker-twitter.git"
+  },
+  "keywords": [
+    "cloudflare",
+    "cloudflare workers",
+    "workers",
+    "twitter",
+    "twitter api",
+    "nodejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/ardasoyturk/cloudflare-worker-twitter/issues"
+  },
+  "homepage": "https://github.com/ardasoyturk/cloudflare-worker-twitter#readme"
+}
