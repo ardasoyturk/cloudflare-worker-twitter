@@ -1,14 +1,21 @@
 const twitterAPIUrl = 'https://api.twitter.com/1.1/users/lookup.json'
 
-const respond = (response: Record<string, unknown>) =>
+const corsHeaders = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'GET,HEAD,POST,OPTIONS',
+  'Access-Control-Max-Age': '86400',
+}
+
+const respond = (response: Record<string, unknown>, code?: number) =>
   new Response(JSON.stringify(response), {
-    headers: { 'content-type': 'application/json' },
+    headers: { 'content-type': 'application/json', ...corsHeaders },
+    status: code,
   })
 
 export async function handleRequest(request: Request): Promise<Response> {
   const url = new URL(request.url)
   if (!url.searchParams.get('username'))
-    return new Response(undefined, { status: 404 })
+    return respond({ message: 'No username given.' })
 
   const response = await fetch(
     `${twitterAPIUrl}?screen_name=${url.searchParams.get('username')}`,
