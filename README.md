@@ -4,7 +4,7 @@ This is a Cloudflare Worker for fetching data from Twitter User API.
 
 ## ❔ About this project
 
-I created this Worker for a project that I'm working on and I thought that it can be useful for everyone.
+I created this Worker to hide my API key while sending requests to the Twitter API on open-sourced projects ([Twitter Profile Viewer](https://twitter-profile-viewer.pages.dev)) and I thought that it can be useful for everyone.
 
 ## 🔋 Getting Started
 
