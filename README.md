@@ -7,7 +7,7 @@ This is a Cloudflare Worker for fetching data from Twitter User API.
 #### Get user data
 
 ```http
-  GET /?username=twitterapi
+GET /?username=twitterapi
 ```
 
 | Parameter  | Type     | Description                                                                |
@@ -17,7 +17,7 @@ This is a Cloudflare Worker for fetching data from Twitter User API.
 #### Get user's liked tweets
 
 ```http
-  GET /?username=twitterapi&lookup=likes
+GET /?username=twitterapi&lookup=likes
 ```
 
 | Parameter  | Type     | Description                                                                                               |
