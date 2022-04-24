@@ -40,4 +40,4 @@ You can use `wrangler dev` command to test the worker locally and use `wrangler 
 
 ## 🤢 Issues
 
-If you run into issues with this specific project, please feel free to file an issue [here](https://github.com/ardasoyturk/cloudflare-worker-twitter/issues). If the problem is with Wrangler, please file an issue [here](https://github.com/ardasoyturk/cloudflare-worker-twitter/issues).
+If you run into issues with this specific project, please feel free to file an issue [here](https://github.com/ardasoyturk/cloudflare-worker-twitter/issues). If the problem is with Wrangler, please file an issue [here](https://github.com/cloudflare/wrangler/issues).
