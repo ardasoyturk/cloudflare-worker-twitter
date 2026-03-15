@@ -1,8 +1,9 @@
 # Cloudflare Worker for Twitter API
+> [!WARNING]  
+> This Cloudflare Worker codebase is from 2021. Many of the API endpoints may have changed since then. Cloudflare Workers have evolved significantly from that time to today. Although I believe this code should still work, I do not recommend using it in production.
+> If you want to use it in production, I am not going to update the code myself, but I am open to contributions. Feel free to open a PR to show your changes.
 
-This is a Cloudflare Worker for fetching data from Twitter User API.
-
-## ⌨ API Reference
+## API Reference
 
 #### Get user data
 
@@ -28,9 +29,9 @@ GET /?username=twitterapi&lookup=likes
 | `since_id` | `number` | Optional. Returns results with an ID greater than (that is, more recent than) the specified ID.           |
 | `max_id`   | `number` | Optional. Returns results with an ID less than (that is, older than) or equal to the specified ID.        |
 
-## 💻 Installation
+## Installation
 
-You need to install [Cloudflare Wrangler](https://github.com/cloudflare/wrangler) and [Node.js](https://nodejs.org) to init this worker locally.
+You need to install [Cloudflare Wrangler](https://github.com/cloudflare/wrangler) and [Node.js](https://nodejs.org) to initialize this worker locally.
 
 ```bash
 wrangler generate cloudflare-worker-twitter https://github.com/ardasoyturk/cloudflare-worker-twitter
