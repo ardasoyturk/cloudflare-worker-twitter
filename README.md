@@ -1,7 +1,8 @@
 # Cloudflare Worker for Twitter API
 > [!WARNING]  
 > This Cloudflare Worker codebase is from 2021. Many of the API endpoints may have changed since then. Cloudflare Workers have evolved significantly from that time to today. Although I believe this code should still work, I do not recommend using it in production.
-> If you want to use it in production, I am not going to update the code myself, but I am open to contributions. Feel free to open a PR to show your changes.
+> 
+> If you want to use it in production, I am not going to update the code myself, you may fork the repository and apply your changes.
 
 ## API Reference
 
